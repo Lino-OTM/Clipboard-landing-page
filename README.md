@@ -8,7 +8,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 Link:
 
-### Built with:
+### Built with: https://lino-otm.github.io/Clipboard-landing-page/
 
 - HTML
 - CSS
