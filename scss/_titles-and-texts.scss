@@ -1,0 +1,14 @@
+@use "colors";
+
+%titles {
+  font-weight: 600;
+  color: colors.$darkGrayishBlue;
+}
+
+%texts {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: colors.$grayishBlue;
+  line-height: 2.8rem;
+  margin-bottom: 5rem;
+}

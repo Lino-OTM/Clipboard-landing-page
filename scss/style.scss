@@ -1,0 +1,233 @@
+@use "colors";
+@use "titles-and-texts";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../images/bg-header-mobile.png") no-repeat;
+  background-size: contain;
+}
+
+.main-container {
+  margin-top: 12rem;
+  width: 92%;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 15rem;
+
+  &__logo {
+    margin-bottom: 4rem;
+  }
+
+  &__title {
+    @extend %titles;
+    font-size: 3.4rem;
+  }
+
+  &__text {
+    @extend %texts;
+  }
+}
+
+.download-btn {
+  display: block;
+  color: #ffffff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 34rem;
+  margin: 1rem auto;
+  border: 0;
+  border-radius: 3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+
+  &--green {
+    background-color: colors.$strongCyan;
+    border-bottom: 4px solid hsla(171, 65%, 38%, 0.847);
+  }
+  &--blue {
+    background-color: colors.$lightBlue;
+    border-bottom: 4px solid hsla(233, 58%, 56%, 0.845);
+  }
+
+  &:hover {
+    opacity: 70%;
+  }
+}
+
+.second-section {
+  text-align: center;
+  margin-bottom: 17rem;
+
+  &__title {
+    @extend %titles;
+    font-size: 3rem;
+  }
+
+  &__text {
+    @extend %texts;
+  }
+
+  &__img-container {
+    margin: 0;
+  }
+
+  &__img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  &__features-title {
+    @extend %titles;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  &__features-description {
+    @extend %texts;
+  }
+}
+
+.third-section {
+  text-align: center;
+  margin-bottom: 10rem;
+
+  &__title {
+    @extend %titles;
+    font-size: 3rem;
+  }
+
+  &__title-text {
+    @extend %texts;
+  }
+
+  &__img-container {
+    margin: 0;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.fourth-section {
+  text-align: center;
+
+  &__title {
+    @extend %titles;
+    font-size: 3rem;
+  }
+  &__title-text {
+    @extend %texts;
+    margin-bottom: 7rem;
+  }
+
+  &__features-icon {
+    margin-bottom: 2.5rem;
+  }
+
+  &__features-title {
+    @extend %titles;
+    font-size: 2.5rem;
+  }
+  &__features-text {
+    @extend %texts;
+  }
+
+  .fourth-section__features:nth-of-type(3) {
+    margin-bottom: 10rem;
+  }
+
+  &__brands-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 11rem;
+  }
+
+  &__brand-icon {
+    margin-bottom: 6rem;
+  }
+}
+
+.fifth-section {
+  text-align: center;
+
+  &__title {
+    @extend %titles;
+    font-size: 3rem;
+  }
+
+  &__text {
+    @extend %texts;
+  }
+
+  & .download-btn--blue {
+    margin-bottom: 10rem;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 5rem 0;
+  box-sizing: border-box;
+
+  &__logo {
+    width: 5rem;
+    margin-bottom: 4rem;
+  }
+  &__aditional-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+
+  &__aditional-info-links {
+    text-decoration: none;
+    color: colors.$darkGrayishBlue;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+
+    &:hover {
+      color: colors.$strongCyan;
+    }
+  }
+
+  &__social-media-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+
+  &__social-media-icon {
+    color: colors.$darkGrayishBlue;
+
+    &:hover {
+      color: colors.$strongCyan;
+    }
+  }
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: colors.$strongCyan;
+}

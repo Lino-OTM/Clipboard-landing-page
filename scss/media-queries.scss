@@ -1,0 +1,123 @@
+@media (min-width: 1000px) {
+  body {
+    background: url("../images/bg-header-desktop.png") no-repeat;
+    background-size: 100vw;
+  }
+
+  .main-container {
+    width: 100%;
+  }
+  .download-btn {
+    display: inline-block;
+    width: 25rem;
+    margin-left: 2rem;
+  }
+
+  // First section
+
+  .hero {
+    margin-bottom: 10rem;
+
+    &__text {
+      width: 45%;
+      margin: 0 auto 3rem;
+    }
+  }
+
+  // Second section
+
+  .second-section__text {
+    width: 50%;
+    margin: 0 auto 8rem;
+  }
+
+  .second-section__main-content-wrapper {
+    display: flex;
+    margin-left: -3rem;
+    gap: 10rem;
+    text-align: left;
+  }
+
+  .second-section__features-wrapper {
+    margin-top: 8rem;
+    width: 26%;
+  }
+
+  // Third section
+
+  .third-section__title-text {
+    width: 50%;
+    margin: 0 auto 7rem;
+  }
+
+  .third-section__img-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  // Fourth section
+
+  .fourth-section__features-wrapper {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .fourth-section__features {
+    width: 28%;
+  }
+
+  .fourth-section__brands-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 13rem;
+    row-gap: 5rem;
+  }
+
+  // Fifth section and footer
+
+  .fifth-section__text {
+    width: 50%;
+    margin: 0 auto 5rem;
+  }
+
+  .fifth-section .download-btn--blue {
+    margin-bottom: 10rem;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem 10rem 2rem;
+
+    &__aditional-info-wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-left: 15rem;
+      margin: 0;
+    }
+
+    &__social-media-links {
+      justify-content: center;
+      gap: 4rem;
+    }
+
+    &__aditional-info-links {
+      display: inline-block;
+      width: 22rem;
+    }
+
+    &__social-media-links {
+      gap: 2rem;
+      width: 20%;
+    }
+
+    &__aditional-info-links:nth-of-type(2) {
+      order: 4;
+    }
+    &__aditional-info-links:nth-of-type(4) {
+      order: 5;
+    }
+  }
+}

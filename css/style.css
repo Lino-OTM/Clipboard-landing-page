@@ -1,0 +1,188 @@
+.hero__title, .second-section__title, .second-section__features-title, .third-section__title, .fourth-section__title, .fourth-section__features-title, .fifth-section__title {
+  font-weight: 600;
+  color: #4c545d;
+}
+
+.hero__text, .second-section__text, .second-section__features-description, .third-section__title-text, .fourth-section__title-text, .fourth-section__features-text, .fifth-section__text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #9fabb2;
+  line-height: 2.8rem;
+  margin-bottom: 5rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../images/bg-header-mobile.png") no-repeat;
+  background-size: contain;
+}
+
+.main-container {
+  margin-top: 12rem;
+  width: 92%;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 15rem;
+}
+.hero__logo {
+  margin-bottom: 4rem;
+}
+.hero__title {
+  font-size: 3.4rem;
+}
+.download-btn {
+  display: block;
+  color: #ffffff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 34rem;
+  margin: 1rem auto;
+  border: 0;
+  border-radius: 3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+.download-btn--green {
+  background-color: #26baa4;
+  border-bottom: 4px solid rgba(34, 160, 141, 0.847);
+}
+.download-btn--blue {
+  background-color: #6173ff;
+  border-bottom: 4px solid rgba(78, 93, 208, 0.845);
+}
+.download-btn:hover {
+  opacity: 70%;
+}
+
+.second-section {
+  text-align: center;
+  margin-bottom: 17rem;
+}
+.second-section__title {
+  font-size: 3rem;
+}
+.second-section__img-container {
+  margin: 0;
+}
+.second-section__img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.second-section__features-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.third-section {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.third-section__title {
+  font-size: 3rem;
+}
+.third-section__img-container {
+  margin: 0;
+}
+.third-section__img {
+  width: 100%;
+}
+
+.fourth-section {
+  text-align: center;
+}
+.fourth-section__title {
+  font-size: 3rem;
+}
+.fourth-section__title-text {
+  margin-bottom: 7rem;
+}
+.fourth-section__features-icon {
+  margin-bottom: 2.5rem;
+}
+.fourth-section__features-title {
+  font-size: 2.5rem;
+}
+.fourth-section .fourth-section__features:nth-of-type(3) {
+  margin-bottom: 10rem;
+}
+.fourth-section__brands-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 11rem;
+}
+.fourth-section__brand-icon {
+  margin-bottom: 6rem;
+}
+
+.fifth-section {
+  text-align: center;
+}
+.fifth-section__title {
+  font-size: 3rem;
+}
+.fifth-section .download-btn--blue {
+  margin-bottom: 10rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 5rem 0;
+  box-sizing: border-box;
+}
+.footer__logo {
+  width: 5rem;
+  margin-bottom: 4rem;
+}
+.footer__aditional-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.footer__aditional-info-links {
+  text-decoration: none;
+  color: #4c545d;
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+.footer__aditional-info-links:hover {
+  color: #26baa4;
+}
+.footer__social-media-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+.footer__social-media-icon {
+  color: #4c545d;
+}
+.footer__social-media-icon:hover {
+  color: #26baa4;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #26baa4;
+}
+
+/*# sourceMappingURL=style.css.map */
