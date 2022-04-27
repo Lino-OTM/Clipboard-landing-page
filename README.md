@@ -6,9 +6,9 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ![](/design/desktop-preview.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Clipboard-landing-page/
 
-### Built with: https://lino-otm.github.io/Clipboard-landing-page/
+### Built with:
 
 - HTML
 - CSS
